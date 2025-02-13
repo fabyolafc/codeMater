@@ -1,0 +1,36 @@
+CRITICAL - 2023-07-18 16:14:09 --> Invalid file: "financeio/cadcontasapagar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('financeio/cadcontasapagar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeio/cadcontasapagar', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('financeio/cadcontasapagar')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 16:14:10 --> Invalid file: "financeio/cadcontasapagar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('financeio/cadcontasapagar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeio/cadcontasapagar', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('financeio/cadcontasapagar')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 16:15:39 --> Invalid file: "financeio/cadcontasapagar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('financeio/cadcontasapagar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeio/cadcontasapagar', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('financeio/cadcontasapagar')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 16:15:59 --> Invalid file: "financeio/cadcontasapagar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('financeio/cadcontasapagar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeio/cadcontasapagar', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('financeio/cadcontasapagar')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

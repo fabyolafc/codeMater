@@ -1,0 +1,204 @@
+<<<<<<< HEAD
+CRITICAL - 2023-08-10 01:42:15 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-08-10 01:44:40 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-08-10 01:44:53 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-08-10 01:48:37 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-08-10 00:23:17 --> Undefined variable $listarfornecedor
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 33.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listarfornecedor', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('financeiro/cadcontasapagar')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 00:23:54 --> Undefined variable $listarfornecedor
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 34.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listarfornecedor', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('financeiro/cadcontasapagar')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 00:32:02 --> Undefined variable $listar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 33.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('financeiro/cadcontasapagar')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 00:37:10 --> Undefined variable $listfornecedorcontaspagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 33.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listfornecedorcontaspagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('financeiro/cadcontasapagar')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 00:37:13 --> Undefined variable $listfornecedorcontaspagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 33.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listfornecedorcontaspagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('financeiro/cadcontasapagar')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 00:37:14 --> Undefined variable $listfornecedorcontaspagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 33.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listfornecedorcontaspagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('financeiro/cadcontasapagar')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 00:59:34 --> Undefined variable $listfornecedorcontaspagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 33.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listfornecedorcontaspagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('financeiro/cadcontasapagar')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 00:59:35 --> Undefined variable $listfornecedorcontaspagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 33.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listfornecedorcontaspagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('financeiro/cadcontasapagar')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 22:02:10 --> Undefined variable $listfornecedorcontaspagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 33.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listfornecedorcontaspagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('financeiro/cadcontasapagar')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 22:03:56 --> Undefined variable $listfornecedorcontaspagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 33.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listfornecedorcontaspagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('financeiro/cadcontasapagar')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 22:03:58 --> Undefined variable $listfornecedorcontaspagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 33.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listfornecedorcontaspagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('financeiro/cadcontasapagar')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 22:03:59 --> Undefined variable $listfornecedorcontaspagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 33.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listfornecedorcontaspagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('financeiro/cadcontasapagar')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-10 22:10:25 --> Attempt to read property "id_fornecedor" on array
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 34.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_fornecedor" on array', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+=======
+INFO - 2023-08-10 15:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 15:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 22:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-10 22:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+>>>>>>> 62adeb405684a8b96ae4f337874ec7a33d0e13f0

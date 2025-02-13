@@ -1,0 +1,26 @@
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 20px;
+}
+
+.conteudo-item {
+    width: 360px; 
+}
+
+.conteudo .conteudo-item p {
+    word-wrap: break-word;
+    text-align: center;
+}
+
+@media screen and (max-width: 1030px) {
+    .conteudo-item {
+        width: 320px; 
+    }
+
+    .conteudo-item iframe {
+        width: 320px;
+        height: 181px;
+    }
+}

@@ -1,0 +1,33 @@
+CRITICAL - 2023-07-28 00:16:04 --> Undefined array key "id"
+in APPPATH\Views\cadastro\viewclientes.php on line 19.
+ 1 APPPATH\Views\cadastro\viewclientes.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\viewclientes.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\viewclientes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cadastro/viewclientes', [], true)
+ 5 APPPATH\Controllers\Home.php(104): view('cadastro/viewclientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->viewclientes()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-28 00:17:14 --> Undefined array key "id"
+in APPPATH\Views\cadastro\viewclientes.php on line 19.
+ 1 APPPATH\Views\cadastro\viewclientes.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\viewclientes.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\viewclientes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cadastro/viewclientes', [], true)
+ 5 APPPATH\Controllers\Home.php(104): view('cadastro/viewclientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->viewclientes()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-28 00:17:18 --> Undefined array key "id"
+in APPPATH\Views\cadastro\viewclientes.php on line 19.
+ 1 APPPATH\Views\cadastro\viewclientes.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\viewclientes.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\viewclientes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cadastro/viewclientes', [], true)
+ 5 APPPATH\Controllers\Home.php(104): view('cadastro/viewclientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->viewclientes()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

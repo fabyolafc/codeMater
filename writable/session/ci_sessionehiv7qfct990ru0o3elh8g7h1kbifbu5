@@ -1,0 +1,110 @@
+__ci_last_regenerate|i:1739487422;_ci_previous_url|s:62:"http://localhost/code_master/public/index.php/inserirAtividade";email|s:25:"fabyolacampos20@gmail.com";nome|s:14:"Fabyola Campos";resultados|a:10:{s:10:"atividade1";s:49:"✅ Código compilado e executado. Resultado: 10
+";s:10:"atividade2";s:51:"✅ Código compilado e executado. Resultado: 7.75
+";s:10:"atividade3";s:53:"✅ Código compilado e executado. Resultado: Ímpar
+";s:10:"atividade4";s:57:"✅ Código compilado e executado. Resultado: 1 2 3 4 5 
+";s:10:"atividade5";s:49:"✅ Código compilado e executado. Resultado: 24
+";s:10:"atividade6";s:49:"✅ Código compilado e executado. Resultado: 18
+";s:10:"atividade7";s:156:"✅ Código compilado e executado. Resultado: 5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+";s:10:"atividade8";s:58:"✅ Código compilado e executado. Resultado: 2 4 6 8 10 
+";s:10:"atividade9";s:61:"✅ Código compilado e executado. Resultado: Menor de idade
+";s:11:"atividade10";s:56:"✅ Código compilado e executado. Resultado: Reprovado
+";}__ci_vars|a:2:{s:10:"resultados";s:3:"new";s:6:"codigo";s:3:"new";}codigo|a:10:{s:10:"atividade1";s:126:"#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 4, b = 6;
+    cout << a + b << endl;
+    return 0;
+}";s:10:"atividade2";s:182:"#include <iostream>
+using namespace std;
+
+int main() {
+    float nota1 = 8.5, nota2 = 7.0;
+    float media = (nota1 + nota2) / 2;
+    cout << media << endl;
+    return 0;
+}
+";s:10:"atividade3";s:193:"#include <iostream>
+using namespace std;
+
+int main() {
+    int num = 9;
+    if (num % 2 == 0)
+        cout << "Par" << endl;
+    else
+        cout << "Ímpar" << endl;
+    return 0;
+}";s:10:"atividade4";s:155:"#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 1; i <= 5; i++)
+        cout << i << " ";
+    cout << endl;
+    return 0;
+}";s:10:"atividade5";s:200:"#include <iostream>
+using namespace std;
+
+int main() {
+    int num = 4, fatorial = 1;
+    for (int i = 1; i <= num; i++)
+        fatorial *= i;
+    cout << fatorial << endl;
+    return 0;
+}
+";s:10:"atividade6";s:140:"#include <iostream>
+using namespace std;
+
+int main() {
+    int x = 12, y = 18;
+    cout << (x > y ? x : y) << endl;
+    return 0;
+}
+";s:10:"atividade7";s:194:"#include <iostream>
+using namespace std;
+
+int main() {
+    int num = 5;
+    for (int i = 1; i <= 10; i++)
+        cout << num << " x " << i << " = " << num * i << endl;
+    return 0;
+}
+";s:10:"atividade8";s:161:"#include <iostream>
+using namespace std;
+
+int main() {
+    for (int i = 2; i <= 10; i += 2)
+        cout << i << " ";
+    cout << endl;
+    return 0;
+}
+";s:10:"atividade9";s:214:"#include <iostream>
+using namespace std;
+
+int main() {
+    int idade = 17;
+    if (idade >= 18)
+        cout << "Maior de idade" << endl;
+    else
+        cout << "Menor de idade" << endl;
+    return 0;
+}";s:11:"atividade10";s:203:"#include <iostream>
+using namespace std;
+
+int main() {
+    float nota = 6.5;
+    if (nota >= 7)
+        cout << "Aprovado" << endl;
+    else
+        cout << "Reprovado" << endl;
+    return 0;
+}";}

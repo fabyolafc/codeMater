@@ -1,0 +1,1313 @@
+INFO - 2023-08-13 03:33:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 03:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 03:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 03:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 03:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 04:03:12 --> syntax error, unexpected end of file
+in APPPATH\Views\financeiro\editarcontaspagar.php on line 74.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/editarcontaspagar', [], true)
+ 3 APPPATH\Controllers\Home.php(831): view('financeiro/editarcontaspagar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarcontaspagar('2')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 04:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 04:13:17 --> Undefined variable $listfornecedorcontaspagar
+in APPPATH\Views\financeiro\editarcontaspagar.php on line 36.
+ 1 APPPATH\Views\financeiro\editarcontaspagar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $listfornecedorcontaspagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\editarcontaspagar.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\editarcontaspagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/editarcontaspagar', [], true)
+ 5 APPPATH\Controllers\Home.php(831): view('financeiro/editarcontaspagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarcontaspagar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 04:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 04:20:52 --> Array to string conversion
+in APPPATH\Views\financeiro\editarcontaspagar.php on line 37.
+ 1 APPPATH\Views\financeiro\editarcontaspagar.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\editarcontaspagar.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\editarcontaspagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/editarcontaspagar', [], true)
+ 5 APPPATH\Controllers\Home.php(839): view('financeiro/editarcontaspagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarcontaspagar('18')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 04:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 04:46:39 --> Undefined variable $dataFormatada
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 25.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataFormatada', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 04:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 04:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 04:47:24 --> Undefined variable $dataFormatada
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 25.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataFormatada', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 04:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 04:50:29 --> Undefined variable $dataFormatada
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 25.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataFormatada', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 04:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 04:50:30 --> Undefined variable $dataFormatada
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 25.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataFormatada', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 04:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 04:50:31 --> Undefined variable $dataFormatada
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 25.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataFormatada', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 04:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 04:50:33 --> Undefined variable $dataFormatada
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 25.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataFormatada', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 04:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 04:53:11 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 04:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 04:55:14 --> Undefined variable $data_emissao
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_emissao', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 04:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 04:56:54 --> Undefined variable $dados
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:04:53 --> Undefined variable $dados
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dados', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:05:31 --> Undefined variable $data_emissao
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_emissao', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:10:07 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:13:40 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:13:41 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:13:42 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:13:42 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:13:42 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:13:42 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:13:43 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:13:43 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:14:08 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:14:08 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:14:09 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:14:09 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:14:09 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:14:09 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:14:09 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:14:10 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:14:10 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:14:10 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:14:10 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:14:10 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:14:11 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:14:11 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:14:11 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:14:11 --> Undefined variable $contasPagar
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 22.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contasPagar', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(66): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:33:56 --> Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\Home.php on line 749.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->salvarcontaspagar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-13 05:38:33 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bdfinae`.`contas_pagar`, CONSTRAINT `contas_pagar_ibfk_1` FOREIGN KEY (`id_fornecedor`) REFERENCES `fornecedor` (`id_fornecedor`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\pi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pi\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pi\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pi\app\Controllers\Home.php(765): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->salvarcontaspagar()
+#9 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-13 05:38:33 --> Cannot add or update a child row: a foreign key constraint fails (`bdfinae`.`contas_pagar`, CONSTRAINT `contas_pagar_ibfk_1` FOREIGN KEY (`id_fornecedor`) REFERENCES `fornecedor` (`id_fornecedor`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`) VALUES (\'12\', \'2003-12-12 00:00:00\', \'\', \'#\', \'\', NULL, NULL, \'\', \'            \')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`) VALUES (\'12\', \'2003-12-12 00:00:00\', \'\', \'#\', \'\', NULL, NULL, \'\', \'            \')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`) VALUES (\'12\', \'2003-12-12 00:00:00\', \'\', \'#\', \'\', NULL, NULL, \'\', \'            \')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`) VALUES (:nfe:, :data_emissao:, :cod_fornecedor:, :id_fornecedor:, :valor_bruto:, :id_plano:, :id_banco:, :cod_barras:, :historico:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(765): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->salvarcontaspagar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 05:46:35 --> Call to a member function format() on bool
+in APPPATH\Controllers\Home.php on line 752.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->salvarcontaspagar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-13 05:49:10 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bdfinae`.`contas_pagar`, CONSTRAINT `contas_pagar_ibfk_1` FOREIGN KEY (`id_fornecedor`) REFERENCES `fornecedor` (`id_fornecedor`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\pi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pi\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pi\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pi\app\Controllers\Home.php(766): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->salvarcontaspagar()
+#9 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-13 05:49:11 --> Cannot add or update a child row: a foreign key constraint fails (`bdfinae`.`contas_pagar`, CONSTRAINT `contas_pagar_ibfk_1` FOREIGN KEY (`id_fornecedor`) REFERENCES `fornecedor` (`id_fornecedor`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`) VALUES (\'12\', \'\', \'\', \'#\', \'\', NULL, NULL, \'\', \'            \')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`) VALUES (\'12\', \'\', \'\', \'#\', \'\', NULL, NULL, \'\', \'            \')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`) VALUES (\'12\', \'\', \'\', \'#\', \'\', NULL, NULL, \'\', \'            \')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`) VALUES (:nfe:, :data_emissao:, :cod_fornecedor:, :id_fornecedor:, :valor_bruto:, :id_plano:, :id_banco:, :cod_barras:, :historico:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(766): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->salvarcontaspagar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-13 05:49:17 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bdfinae`.`contas_pagar`, CONSTRAINT `contas_pagar_ibfk_1` FOREIGN KEY (`id_fornecedor`) REFERENCES `fornecedor` (`id_fornecedor`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\pi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pi\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pi\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pi\app\Controllers\Home.php(766): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->salvarcontaspagar()
+#9 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-13 05:49:17 --> Cannot add or update a child row: a foreign key constraint fails (`bdfinae`.`contas_pagar`, CONSTRAINT `contas_pagar_ibfk_1` FOREIGN KEY (`id_fornecedor`) REFERENCES `fornecedor` (`id_fornecedor`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`) VALUES (\'12\', \'\', \'\', \'#\', \'\', NULL, NULL, \'\', \'            \')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`) VALUES (\'12\', \'\', \'\', \'#\', \'\', NULL, NULL, \'\', \'            \')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`) VALUES (\'12\', \'\', \'\', \'#\', \'\', NULL, NULL, \'\', \'            \')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`) VALUES (:nfe:, :data_emissao:, :cod_fornecedor:, :id_fornecedor:, :valor_bruto:, :id_plano:, :id_banco:, :cod_barras:, :historico:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(766): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->salvarcontaspagar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 05:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:49:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:50:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 05:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-13 06:00:30 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`bdfinae`.`contas_pagar`, CONSTRAINT `contas_pagar_ibfk_1` FOREIGN KEY (`id_fornecedor`) REFERENCES `fornecedor` (`id_fornecedor`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\pi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pi\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pi\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pi\app\Controllers\Home.php(766): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->salvarcontaspagar()
+#9 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-13 06:00:30 --> Cannot add or update a child row: a foreign key constraint fails (`bdfinae`.`contas_pagar`, CONSTRAINT `contas_pagar_ibfk_1` FOREIGN KEY (`id_fornecedor`) REFERENCES `fornecedor` (`id_fornecedor`) ON DELETE CASCADE ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`) VALUES (\'13\', \'\', \'\', \'#\', \'\', NULL, NULL, \'\', \'   safsryryuju         \')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`) VALUES (\'13\', \'\', \'\', \'#\', \'\', NULL, NULL, \'\', \'   safsryryuju         \')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`) VALUES (\'13\', \'\', \'\', \'#\', \'\', NULL, NULL, \'\', \'   safsryryuju         \')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`) VALUES (:nfe:, :data_emissao:, :cod_fornecedor:, :id_fornecedor:, :valor_bruto:, :id_plano:, :id_banco:, :cod_barras:, :historico:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(766): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->salvarcontaspagar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 06:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 06:18:36 --> Undefined array key "id_plano"
+in APPPATH\Views\financeiro\cadcontasapagar.php on line 56.
+ 1 APPPATH\Views\financeiro\cadcontasapagar.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_plano"', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php', 56)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\cadcontasapagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/cadcontasapagar', [], true)
+ 5 APPPATH\Controllers\Home.php(81): view('/financeiro/cadcontasapagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->cadcontasapagar()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 06:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 06:40:16 --> Undefined array key "descricao"
+in APPPATH\Views\financeiro\editarcontaspagar.php on line 56.
+ 1 APPPATH\Views\financeiro\editarcontaspagar.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descricao"', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\editarcontaspagar.php', 56)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\editarcontaspagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/editarcontaspagar', [], true)
+ 5 APPPATH\Controllers\Home.php(878): view('financeiro/editarcontaspagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarcontaspagar('26')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 06:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 06:42:02 --> Undefined array key "caixabanco"
+in APPPATH\Views\financeiro\editarcontaspagar.php on line 62.
+ 1 APPPATH\Views\financeiro\editarcontaspagar.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "caixabanco"', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\editarcontaspagar.php', 62)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\editarcontaspagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/editarcontaspagar', [], true)
+ 5 APPPATH\Controllers\Home.php(878): view('financeiro/editarcontaspagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarcontaspagar('26')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 06:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:46:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-13 06:48:45 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pl...', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\pi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pi\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pi\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pi\app\Controllers\Home.php(660): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->salvarplano()
+#9 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-13 06:48:45 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (\'\', \'React js\', \'Débito\', \'Vendas\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (\'\', \'React js\', \'Débito\', \'Vendas\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (\'\', \'React js\', \'Débito\', \'Vendas\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (:codigo:, :descricao:, :tipo_titulo:, :classificacao:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(660): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->salvarplano()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 06:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-13 06:48:59 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pl...', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\pi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pi\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pi\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pi\app\Controllers\Home.php(660): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->salvarplano()
+#9 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-13 06:48:59 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (\'\', \'React js\', \'Débito\', \'Vendas\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (\'\', \'React js\', \'Débito\', \'Vendas\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (\'\', \'React js\', \'Débito\', \'Vendas\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (:codigo:, :descricao:, :tipo_titulo:, :classificacao:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(660): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->salvarplano()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 06:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 06:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-13 06:50:17 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pl...', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\pi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pi\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pi\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pi\app\Controllers\Home.php(660): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->salvarplano()
+#9 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-13 06:50:17 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (\'3963\', \'React \', \'Débito\', \'Vendas\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (\'3963\', \'React \', \'Débito\', \'Vendas\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (\'3963\', \'React \', \'Débito\', \'Vendas\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (:codigo:, :descricao:, :tipo_titulo:, :classificacao:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(660): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->salvarplano()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 06:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-13 07:09:24 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pl...', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\pi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pi\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pi\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pi\app\Controllers\Home.php(660): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->salvarplano()
+#9 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-13 07:09:24 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (\'3963\', \'React \', \'Débito\', \'Vendas\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (\'3963\', \'React \', \'Débito\', \'Vendas\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (\'3963\', \'React \', \'Débito\', \'Vendas\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (:codigo:, :descricao:, :tipo_titulo:, :classificacao:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(660): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->salvarplano()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 07:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-13 07:09:43 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pl...', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\pi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pi\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pi\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pi\app\Controllers\Home.php(660): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->salvarplano()
+#9 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-13 07:09:43 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (\'3963\', \'React \', \'Crédito\', \'Compras para Revenda\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (\'3963\', \'React \', \'Crédito\', \'Compras para Revenda\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (\'3963\', \'React \', \'Crédito\', \'Compras para Revenda\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `plano_contas` (`codigo`, `descricao`, `tipo_titulo`, `classificacao`) VALUES (:codigo:, :descricao:, :tipo_titulo:, :classificacao:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(660): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->salvarplano()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 07:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 07:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 17:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 17:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 17:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-13 17:39:56 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\pi\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1735)
+#1 C:\xampp\htdocs\pi\system\Email\Email.php(1735): mail('gafabif244@weis...', '=?UTF-8?Q?Recup...', '<h3>Ol\xC3\xA1! </h3>...', 'Date: Sun, 13 A...', '-f ifnmgaluno3@...')
+#2 C:\xampp\htdocs\pi\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\pi\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\pi\app\Controllers\Reset.php(82): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Reset->enviaEmail()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-08-13 17:39:56 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-08-13 17:39:56 --> 
+INFO - 2023-08-13 17:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-13 17:41:00 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\pi\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1735)
+#1 C:\xampp\htdocs\pi\system\Email\Email.php(1735): mail('gafabif244@weis...', '=?UTF-8?Q?Recup...', '<h3>Ol\xC3\xA1! </h3>...', 'Date: Sun, 13 A...', '-f ifnmgaluno3@...')
+#2 C:\xampp\htdocs\pi\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\pi\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\pi\app\Controllers\Reset.php(82): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Reset->enviaEmail()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-08-13 17:41:00 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-08-13 17:41:00 --> 
+ERROR - 2023-08-13 17:42:31 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\pi\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1735)
+#1 C:\xampp\htdocs\pi\system\Email\Email.php(1735): mail('gafabif244@weis...', '=?UTF-8?Q?Recup...', '<h3>Ol\xC3\xA1! </h3>...', 'Date: Sun, 13 A...', '-f ifnmgaluno3@...')
+#2 C:\xampp\htdocs\pi\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\pi\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\pi\app\Controllers\Reset.php(80): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Reset->enviaEmail()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-08-13 17:42:31 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-08-13 17:42:31 --> 
+ERROR - 2023-08-13 17:44:15 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\pi\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1735)
+#1 C:\xampp\htdocs\pi\system\Email\Email.php(1735): mail('gafabif244@weis...', '=?UTF-8?Q?Recup...', '<h3>Ol\xC3\xA1! </h3>...', 'Date: Sun, 13 A...', '-f ifnmgaluno3@...')
+#2 C:\xampp\htdocs\pi\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\pi\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\pi\app\Controllers\Reset.php(80): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Reset->enviaEmail()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-08-13 17:44:15 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-08-13 17:44:15 --> 
+ERROR - 2023-08-13 17:44:53 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\pi\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1735)
+#1 C:\xampp\htdocs\pi\system\Email\Email.php(1735): mail('gafabif244@weis...', '=?UTF-8?Q?Recup...', '<h3>Ol\xC3\xA1! </h3>...', 'Date: Sun, 13 A...', '-f ifnmgaluno3@...')
+#2 C:\xampp\htdocs\pi\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\pi\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\pi\app\Controllers\Reset.php(80): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Reset->enviaEmail()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-08-13 17:44:53 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-08-13 17:44:53 --> 
+INFO - 2023-08-13 17:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 17:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 17:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 17:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 17:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 17:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 17:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 17:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 17:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 17:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-13 17:48:36 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\pi\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1735)
+#1 C:\xampp\htdocs\pi\system\Email\Email.php(1735): mail('gafabif244@weis...', '=?UTF-8?Q?Recup...', '<h3>Ol\xC3\xA1! </h3>...', 'Date: Sun, 13 A...', '-f ifnmgaluno3@...')
+#2 C:\xampp\htdocs\pi\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\pi\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\pi\app\Controllers\Reset.php(80): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Reset->enviaEmail()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-08-13 17:48:36 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-08-13 17:48:36 --> 
+INFO - 2023-08-13 17:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-13 17:50:15 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\pi\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1735)
+#1 C:\xampp\htdocs\pi\system\Email\Email.php(1735): mail('gafabif244@weis...', '=?UTF-8?Q?Recup...', '<h3>Ol\xC3\xA1! </h3>...', 'Date: Sun, 13 A...', '-f ifnmgaluno3@...')
+#2 C:\xampp\htdocs\pi\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\pi\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\pi\app\Controllers\Reset.php(80): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Reset->enviaEmail()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-08-13 17:50:15 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-08-13 17:50:15 --> 
+ERROR - 2023-08-13 17:51:14 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\pi\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1735)
+#1 C:\xampp\htdocs\pi\system\Email\Email.php(1735): mail('gafabif244@weis...', '=?UTF-8?Q?Recup...', '<h3>Ol\xC3\xA1! </h3>...', 'Date: Sun, 13 A...', '-f ifnmgaluno3@...')
+#2 C:\xampp\htdocs\pi\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\pi\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\pi\app\Controllers\Reset.php(80): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Reset->enviaEmail()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-08-13 17:51:14 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-08-13 17:51:14 --> 
+ERROR - 2023-08-13 17:51:23 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\pi\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1735)
+#1 C:\xampp\htdocs\pi\system\Email\Email.php(1735): mail('gafabif244@weis...', '=?UTF-8?Q?Recup...', '<h3>Ol\xC3\xA1! </h3>...', 'Date: Sun, 13 A...', '-f ifnmgaluno3@...')
+#2 C:\xampp\htdocs\pi\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\pi\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\pi\app\Controllers\Reset.php(80): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Reset->enviaEmail()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-08-13 17:51:23 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-08-13 17:51:23 --> 
+ERROR - 2023-08-13 17:54:03 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\pi\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1735)
+#1 C:\xampp\htdocs\pi\system\Email\Email.php(1735): mail('gafabif244@weis...', '=?UTF-8?Q?Recup...', '<h3>Ol\xC3\xA1! </h3>...', 'Date: Sun, 13 A...', '-f ifnmgaluno3@...')
+#2 C:\xampp\htdocs\pi\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\pi\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\pi\app\Controllers\Reset.php(80): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Reset->enviaEmail()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-08-13 17:54:03 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-08-13 17:54:03 --> 
+INFO - 2023-08-13 17:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 18:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 18:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 18:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 18:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 18:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 18:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 18:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 18:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 18:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 18:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 18:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 18:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 18:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 18:09:25 --> Undefined variable $msgErro
+in APPPATH\Views\resetsenha.php on line 43.
+ 1 APPPATH\Views\resetsenha.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $msgErro', 'C:\\xampp\\htdocs\\pi\\app\\Views\\resetsenha.php', 43)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\resetsenha.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('resetsenha', [], true)
+ 5 APPPATH\Controllers\Reset.php(12): view('resetsenha')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Reset->resetsenha()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 18:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 18:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 18:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 18:10:07 --> Undefined variable $msgErro
+in APPPATH\Views\resetsenha.php on line 43.
+ 1 APPPATH\Views\resetsenha.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $msgErro', 'C:\\xampp\\htdocs\\pi\\app\\Views\\resetsenha.php', 43)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\resetsenha.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('resetsenha', [], true)
+ 5 APPPATH\Controllers\Reset.php(24): view('resetsenha')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Reset->newPassword('36f09f1ab048e20c318cbaf62b452370')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 18:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 18:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-13 18:12:35 --> Undefined variable $msgErro
+in APPPATH\Views\resetsenha.php on line 43.
+ 1 APPPATH\Views\resetsenha.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $msgErro', 'C:\\xampp\\htdocs\\pi\\app\\Views\\resetsenha.php', 43)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\resetsenha.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('resetsenha', [], true)
+ 5 APPPATH\Controllers\Reset.php(12): view('resetsenha')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Reset->resetsenha()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-13 18:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 18:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 18:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 18:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 21:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 21:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 21:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 23:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 23:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 23:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 23:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 23:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 23:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 23:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 23:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 23:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 23:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 23:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-13 23:57:54 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.gmail.com:25 (Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu) in C:\xampp\htdocs\pi\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', 'C:\\xampp\\htdocs...', 1868)
+#1 C:\xampp\htdocs\pi\system\Email\Email.php(1868): fsockopen('smtp.gmail.com', 25, NULL, NULL, 5)
+#2 C:\xampp\htdocs\pi\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\pi\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\pi\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\pi\app\Controllers\Reset.php(82): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Reset->enviaEmail()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-13 23:57:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-08-13 23:57:54 --> 
+INFO - 2023-08-13 23:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 23:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-13 23:58:25 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to smtp.gmail.com:25 (Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu) in C:\xampp\htdocs\pi\system\Email\Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): Un...', 'C:\\xampp\\htdocs...', 1868)
+#1 C:\xampp\htdocs\pi\system\Email\Email.php(1868): fsockopen('smtp.gmail.com', 25, NULL, NULL, 5)
+#2 C:\xampp\htdocs\pi\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\pi\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\pi\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\pi\app\Controllers\Reset.php(82): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Reset->enviaEmail()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-08-13 23:58:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-08-13 23:58:25 --> 
+INFO - 2023-08-13 23:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 23:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 23:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-13 23:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

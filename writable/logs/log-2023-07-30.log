@@ -1,0 +1,1096 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+ERROR - 2023-07-30 19:09:30 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+=======
+=======
+>>>>>>> 62adeb405684a8b96ae4f337874ec7a33d0e13f0
+ERROR - 2023-07-30 12:15:21 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\pi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pi\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pi\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pi\app\Controllers\Home.php(86): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->salvarcliente()
+#9 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+<<<<<<< HEAD
+>>>>>>> 2254aabb336ca0cab7bdec6055a4af8bf218093d
+=======
+=======
+ERROR - 2023-07-30 19:09:30 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+>>>>>>> ad50fe5256d9daaf0451313297cc9e1f9c975957
+>>>>>>> 62adeb405684a8b96ae4f337874ec7a33d0e13f0
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+<<<<<<< HEAD
+<<<<<<< HEAD
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:09:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:15:06 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:15:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:22:50 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:22:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:24:15 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:24:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:24:27 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:24:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:24:50 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:24:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:24:59 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:24:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:25:01 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:25:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:25:02 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:25:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:25:06 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:25:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:25:14 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:25:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 19:28:35 --> Undefined array key "estado"
+in APPPATH\Views\cadastro\editarfornecedor.php on line 52.
+ 1 APPPATH\Views\cadastro\editarfornecedor.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estado"', 'C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\editarfornecedor.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\editarfornecedor.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/cadastro/editarfornecedor', [], true)
+ 5 APPPATH\Controllers\Home.php(167): view('/cadastro/editarfornecedor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarfornecedor('6')
+=======
+=======
+>>>>>>> 62adeb405684a8b96ae4f337874ec7a33d0e13f0
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#3 C:\xampp\htdocs\pi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\xampp\htdocs\pi\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#5 C:\xampp\htdocs\pi\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\xampp\htdocs\pi\app\Controllers\Home.php(86): CodeIgniter\Model->insert(Array)
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->salvarcliente()
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-30 12:15:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`cnpjcpf`, `nome_cliente`, `rua`, `telefone`, `email`, `sexo`, `bairro`, `cidade`, `uf`, `cep`, `numero`) VALUES (:cnpjcpf:, :nome_cliente:, :rua:, :telefone:, :email:, :sexo:, :bairro:, :cidade:, :uf:, :cep:, :numero:)', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\Home.php(86): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->salvarcliente()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:50:05 --> Invalid file: "vizaltclientes.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vizaltclientes.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vizaltclientes', [], true)
+ 3 APPPATH\Controllers\Home.php(134): view('vizaltclientes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->vizaltclientes('6')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:50:11 --> Invalid file: "vizaltclientes.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vizaltclientes.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vizaltclientes', [], true)
+ 3 APPPATH\Controllers\Home.php(134): view('vizaltclientes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->vizaltclientes('6')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:51:37 --> Invalid file: "vizaltclientes.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vizaltclientes.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vizaltclientes', [], true)
+ 3 APPPATH\Controllers\Home.php(134): view('vizaltclientes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->vizaltclientes('6')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:51:38 --> Invalid file: "vizaltclientes.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vizaltclientes.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vizaltclientes', [], true)
+ 3 APPPATH\Controllers\Home.php(134): view('vizaltclientes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->vizaltclientes('6')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:51:45 --> Invalid file: "vizaltclientes.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vizaltclientes.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('vizaltclientes', [], true)
+ 3 APPPATH\Controllers\Home.php(134): view('vizaltclientes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->vizaltclientes('8')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:52:26 --> Invalid file: "cadastro/viewclientes/vizaltclientes.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cadastro/viewclientes/vizaltclientes.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cadastro/viewclientes/vizaltclientes', [], true)
+ 3 APPPATH\Controllers\Home.php(134): view('cadastro/viewclientes/vizaltclientes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->vizaltclientes('6')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:53:12 --> Invalid file: "cadastro/viewclientes/vizaltclientes.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cadastro/viewclientes/vizaltclientes.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cadastro/viewclientes/vizaltclientes', [], true)
+ 3 APPPATH\Controllers\Home.php(134): view('cadastro/viewclientes/vizaltclientes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->vizaltclientes('6')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:53:17 --> Invalid file: "cadastro/viewclientes/vizaltclientes.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cadastro/viewclientes/vizaltclientes.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cadastro/viewclientes/vizaltclientes', [], true)
+ 3 APPPATH\Controllers\Home.php(134): view('cadastro/viewclientes/vizaltclientes', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->vizaltclientes('9')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:57:15 --> Undefined array key "nome"
+in APPPATH\Views\cadastro\vizaltclientes.php on line 24.
+ 1 APPPATH\Views\cadastro\vizaltclientes.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\vizaltclientes.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\vizaltclientes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cadastro/vizaltclientes', [], true)
+ 5 APPPATH\Controllers\Home.php(134): view('cadastro/vizaltclientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->vizaltclientes('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 17:57:29 --> Undefined array key "nome"
+in APPPATH\Views\cadastro\vizaltclientes.php on line 24.
+ 1 APPPATH\Views\cadastro\vizaltclientes.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nome"', 'C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\vizaltclientes.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\vizaltclientes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cadastro/vizaltclientes', [], true)
+ 5 APPPATH\Controllers\Home.php(134): view('cadastro/vizaltclientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->vizaltclientes('6')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 18:18:20 --> mysqli_sql_exception: Duplicate entry '123456789' for key 'cnpjcpf' in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\pi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pi\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pi\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pi\app\Controllers\Home.php(86): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->salvarcliente()
+#9 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-30 18:18:20 --> Duplicate entry '123456789' for key 'cnpjcpf'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cliente` (`cnpjcpf`, `nome_cliente`, `rua`, `telefone`, `email`, `sexo`, `bairro`, `cidade`, `uf`, `cep`, `numero`) VALUES (\'123456789\', \'MARCONI\', \'rUA JUDHTI DA CUNHA MELO\', \'2147483647\', \'MARCONI@CHAVESSILVA\', \'out\', \'Ipaussu\', \'São paulo\', \'SP\', \'600000\', \'999\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cliente` (`cnpjcpf`, `nome_cliente`, `rua`, `telefone`, `email`, `sexo`, `bairro`, `cidade`, `uf`, `cep`, `numero`) VALUES (\'123456789\', \'MARCONI\', \'rUA JUDHTI DA CUNHA MELO\', \'2147483647\', \'MARCONI@CHAVESSILVA\', \'out\', \'Ipaussu\', \'São paulo\', \'SP\', \'600000\', \'999\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cliente` (`cnpjcpf`, `nome_cliente`, `rua`, `telefone`, `email`, `sexo`, `bairro`, `cidade`, `uf`, `cep`, `numero`) VALUES (\'123456789\', \'MARCONI\', \'rUA JUDHTI DA CUNHA MELO\', \'2147483647\', \'MARCONI@CHAVESSILVA\', \'out\', \'Ipaussu\', \'São paulo\', \'SP\', \'600000\', \'999\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cliente` (`cnpjcpf`, `nome_cliente`, `rua`, `telefone`, `email`, `sexo`, `bairro`, `cidade`, `uf`, `cep`, `numero`) VALUES (:cnpjcpf:, :nome_cliente:, :rua:, :telefone:, :email:, :sexo:, :bairro:, :cidade:, :uf:, :cep:, :numero:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(86): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->salvarcliente()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 18:24:58 --> Undefined array key "id"
+in APPPATH\Views\cadastro\vizaltclientes.php on line 17.
+ 1 APPPATH\Views\cadastro\vizaltclientes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\vizaltclientes.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\vizaltclientes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cadastro/vizaltclientes', [], true)
+ 5 APPPATH\Controllers\Home.php(134): view('cadastro/vizaltclientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->vizaltclientes('10')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 18:25:00 --> Undefined array key "id"
+in APPPATH\Views\cadastro\vizaltclientes.php on line 17.
+ 1 APPPATH\Views\cadastro\vizaltclientes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\vizaltclientes.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\vizaltclientes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cadastro/vizaltclientes', [], true)
+ 5 APPPATH\Controllers\Home.php(134): view('cadastro/vizaltclientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->vizaltclientes('10')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 18:26:57 --> Undefined array key "id"
+in APPPATH\Views\cadastro\vizaltclientes.php on line 17.
+ 1 APPPATH\Views\cadastro\vizaltclientes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\vizaltclientes.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\vizaltclientes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cadastro/vizaltclientes', [], true)
+ 5 APPPATH\Controllers\Home.php(134): view('cadastro/vizaltclientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->vizaltclientes('10')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 18:26:58 --> Undefined array key "id"
+in APPPATH\Views\cadastro\vizaltclientes.php on line 17.
+ 1 APPPATH\Views\cadastro\vizaltclientes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\vizaltclientes.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\vizaltclientes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cadastro/vizaltclientes', [], true)
+ 5 APPPATH\Controllers\Home.php(134): view('cadastro/vizaltclientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->vizaltclientes('10')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 18:28:19 --> Undefined variable $c
+in APPPATH\Views\cadastro\vizaltclientes.php on line 17.
+ 1 APPPATH\Views\cadastro\vizaltclientes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $c', 'C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\vizaltclientes.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\vizaltclientes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cadastro/vizaltclientes', [], true)
+ 5 APPPATH\Controllers\Home.php(134): view('cadastro/vizaltclientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->vizaltclientes('10')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 18:28:20 --> Undefined variable $c
+in APPPATH\Views\cadastro\vizaltclientes.php on line 17.
+ 1 APPPATH\Views\cadastro\vizaltclientes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $c', 'C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\vizaltclientes.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\vizaltclientes.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cadastro/vizaltclientes', [], true)
+ 5 APPPATH\Controllers\Home.php(134): view('cadastro/vizaltclientes', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->vizaltclientes('10')
+<<<<<<< HEAD
+>>>>>>> 2254aabb336ca0cab7bdec6055a4af8bf218093d
+=======
+=======
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:09:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:15:06 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:15:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:22:50 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:22:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:24:15 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:24:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:24:27 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:24:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:24:50 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:24:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:24:59 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:24:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:25:01 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:25:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:25:02 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:25:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:25:06 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:25:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-30 19:25:14 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'bdfinae', 3306, '', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\pi\app\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pi\app\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+#5 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+#6 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-30 19:25:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `fornecedor`', [], false)
+ 3 APPPATH\Models\FornecedorModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(132): App\Models\FornecedorModel->getFornecedor()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->listarfornecedor()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-30 19:28:35 --> Undefined array key "estado"
+in APPPATH\Views\cadastro\editarfornecedor.php on line 52.
+ 1 APPPATH\Views\cadastro\editarfornecedor.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estado"', 'C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\editarfornecedor.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\cadastro\\editarfornecedor.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/cadastro/editarfornecedor', [], true)
+ 5 APPPATH\Controllers\Home.php(167): view('/cadastro/editarfornecedor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarfornecedor('6')
+>>>>>>> ad50fe5256d9daaf0451313297cc9e1f9c975957
+>>>>>>> 62adeb405684a8b96ae4f337874ec7a33d0e13f0
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,10 @@
+__ci_last_regenerate|i:1739234094;_ci_previous_url|s:50:"http://localhost/code_master/public/index.php/base";email|s:25:"fabyolacampos20@gmail.com";nome|s:14:"Fabyola Campos";resultados|a:10:{s:10:"atividade1";s:49:"✅ Código compilado e executado. Resultado: 10
+";s:10:"atividade2";s:30:"❌ Nenhuma atividade enviada.";s:10:"atividade3";s:30:"❌ Nenhuma atividade enviada.";s:10:"atividade4";s:30:"❌ Nenhuma atividade enviada.";s:10:"atividade5";s:30:"❌ Nenhuma atividade enviada.";s:10:"atividade6";s:30:"❌ Nenhuma atividade enviada.";s:10:"atividade7";s:30:"❌ Nenhuma atividade enviada.";s:10:"atividade8";s:30:"❌ Nenhuma atividade enviada.";s:10:"atividade9";s:30:"❌ Nenhuma atividade enviada.";s:11:"atividade10";s:30:"❌ Nenhuma atividade enviada.";}__ci_vars|a:2:{s:10:"resultados";s:3:"old";s:6:"codigo";s:3:"old";}codigo|a:10:{s:10:"atividade1";s:137:"#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 4, b = 6;
+    cout <<        a + b << endl;
+    return 0;
+}
+  ";s:10:"atividade2";s:0:"";s:10:"atividade3";s:0:"";s:10:"atividade4";s:0:"";s:10:"atividade5";s:0:"";s:10:"atividade6";s:0:"";s:10:"atividade7";s:0:"";s:10:"atividade8";s:0:"";s:10:"atividade9";s:0:"";s:11:"atividade10";s:0:"";}

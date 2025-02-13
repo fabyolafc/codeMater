@@ -1,0 +1,181 @@
+<<<<<<< HEAD
+CRITICAL - 2023-08-07 01:21:31 --> Invalid file: "/financeiro/editarcontaspagar/.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/financeiro/editarcontaspagar/.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/editarcontaspagar/', [], true)
+ 3 APPPATH\Controllers\Home.php(553): view('/financeiro/editarcontaspagar/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarcontaspagar('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 01:23:28 --> Invalid file: "/financeiro/editarcontaspagar/.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/financeiro/editarcontaspagar/.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/editarcontaspagar/', [], true)
+ 3 APPPATH\Controllers\Home.php(553): view('/financeiro/editarcontaspagar/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarcontaspagar('1')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 01:23:37 --> Invalid file: "/financeiro/editarcontaspagar/.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/financeiro/editarcontaspagar/.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/editarcontaspagar/', [], true)
+ 3 APPPATH\Controllers\Home.php(553): view('/financeiro/editarcontaspagar/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarcontaspagar('3')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 01:23:59 --> Invalid file: "/financeiro/editarcontaspagar/.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/financeiro/editarcontaspagar/.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/editarcontaspagar/', [], true)
+ 3 APPPATH\Controllers\Home.php(553): view('/financeiro/editarcontaspagar/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarcontaspagar('2')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 01:24:32 --> Invalid file: "/financeiro/editarcontaspagar/.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/financeiro/editarcontaspagar/.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/editarcontaspagar/', [], true)
+ 3 APPPATH\Controllers\Home.php(553): view('/financeiro/editarcontaspagar/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarcontaspagar('4')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 01:27:24 --> Invalid file: "/financeiro/listarcontaspagar/editarcontaspagar/.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/financeiro/listarcontaspagar/editarcontaspagar/.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/listarcontaspagar/editarcontaspagar/', [], true)
+ 3 APPPATH\Controllers\Home.php(553): view('/financeiro/listarcontaspagar/editarcontaspagar/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarcontaspagar('4')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 01:27:34 --> Invalid file: "/financeiro/listarcontaspagar/editarcontaspagar/.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/financeiro/listarcontaspagar/editarcontaspagar/.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/financeiro/listarcontaspagar/editarcontaspagar/', [], true)
+ 3 APPPATH\Controllers\Home.php(553): view('/financeiro/listarcontaspagar/editarcontaspagar/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarcontaspagar('3')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 01:35:25 --> Invalid file: "financeiro/editarcontaspagar/.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('financeiro/editarcontaspagar/.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/editarcontaspagar/', [], true)
+ 3 APPPATH\Controllers\Home.php(553): view('financeiro/editarcontaspagar/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarcontaspagar('3')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 01:35:33 --> Invalid file: "financeiro/editarcontaspagar/.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('financeiro/editarcontaspagar/.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/editarcontaspagar/', [], true)
+ 3 APPPATH\Controllers\Home.php(553): view('financeiro/editarcontaspagar/', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarcontaspagar('3')
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 01:36:08 --> Undefined array key "fornecedor"
+in APPPATH\Views\financeiro\editarcontaspagar.php on line 35.
+ 1 APPPATH\Views\financeiro\editarcontaspagar.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fornecedor"', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\editarcontaspagar.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\editarcontaspagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/editarcontaspagar', [], true)
+ 5 APPPATH\Controllers\Home.php(553): view('financeiro/editarcontaspagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarcontaspagar('3')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 01:36:20 --> Undefined array key "fornecedor"
+in APPPATH\Views\financeiro\editarcontaspagar.php on line 35.
+ 1 APPPATH\Views\financeiro\editarcontaspagar.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fornecedor"', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\editarcontaspagar.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\editarcontaspagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/editarcontaspagar', [], true)
+ 5 APPPATH\Controllers\Home.php(553): view('financeiro/editarcontaspagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarcontaspagar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 01:37:06 --> Undefined array key "fornecedor"
+in APPPATH\Views\financeiro\editarcontaspagar.php on line 35.
+ 1 APPPATH\Views\financeiro\editarcontaspagar.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fornecedor"', 'C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\editarcontaspagar.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\financeiro\\editarcontaspagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('financeiro/editarcontaspagar', [], true)
+ 5 APPPATH\Controllers\Home.php(553): view('financeiro/editarcontaspagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->editarcontaspagar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-07 01:49:39 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\pi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\pi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\pi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\pi\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pi\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pi\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pi\app\Controllers\Home.php(507): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pi\system\CodeIgniter.php(932): App\Controllers\Home->salvarcontaspagar()
+#9 C:\xampp\htdocs\pi\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\pi\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-07 01:49:39 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`, `created_at`, `updated_at`) VALUES (\'39630000\', \'2002-12-12\', \'123\', NULL, \'123\', NULL, NULL, \'\', \'            klnçiugoyu\', \'2023-08-07 01:49:39\', \'2023-08-07 01:49:39\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`, `created_at`, `updated_at`) VALUES (\'39630000\', \'2002-12-12\', \'123\', NULL, \'123\', NULL, NULL, \'\', \'            klnçiugoyu\', \'2023-08-07 01:49:39\', \'2023-08-07 01:49:39\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`, `created_at`, `updated_at`) VALUES (\'39630000\', \'2002-12-12\', \'123\', NULL, \'123\', NULL, NULL, \'\', \'            klnçiugoyu\', \'2023-08-07 01:49:39\', \'2023-08-07 01:49:39\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contas_pagar` (`nfe`, `data_emissao`, `cod_fornecedor`, `id_fornecedor`, `valor_bruto`, `id_plano`, `id_banco`, `cod_barras`, `historico`, `created_at`, `updated_at`) VALUES (:nfe:, :data_emissao:, :cod_fornecedor:, :id_fornecedor:, :valor_bruto:, :id_plano:, :id_banco:, :cod_barras:, :historico:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Home.php(507): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->salvarcontaspagar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+=======
+CRITICAL - 2023-08-07 15:10:51 --> Undefined variable $msgErro
+in APPPATH\Views\login\login.php on line 45.
+ 1 APPPATH\Views\login\login.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $msgErro', 'C:\\xampp\\htdocs\\pi\\app\\Views\\login\\login.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\pi\\app\\Views\\login\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('login/login', [], true)
+ 5 APPPATH\Controllers\Login.php(58): view('login/login')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->novousuario()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-07 15:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 15:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-07 15:12:02 --> Invalid file: "/.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/', [], true)
+ 3 APPPATH\Controllers\Login.php(58): view('/')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->novousuario()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-07 15:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 15:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 15:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 15:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 15:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 15:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 15:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 15:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 15:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 15:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 15:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 23:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 23:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+>>>>>>> 62adeb405684a8b96ae4f337874ec7a33d0e13f0

@@ -1,0 +1,45 @@
+CRITICAL - 2023-07-26 00:06:15 --> Invalid file: "relatorio/relcontaspagar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('relatorio/relcontaspagar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('relatorio/relcontaspagar', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('relatorio/relcontaspagar')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->relcontaspagar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-26 00:06:27 --> Invalid file: "relatorio/relcontaspagar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('relatorio/relcontaspagar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('relatorio/relcontaspagar', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('relatorio/relcontaspagar')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->relcontaspagar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-26 00:06:32 --> Invalid file: "relatorio/relcontaspagar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('relatorio/relcontaspagar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('relatorio/relcontaspagar', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('relatorio/relcontaspagar')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->relcontaspagar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-26 00:07:20 --> Invalid file: "relatorio/relcontaspagar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('relatorio/relcontaspagar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('relatorio/relcontaspagar', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('relatorio/relcontaspagar')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->relcontaspagar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-26 00:10:56 --> Invalid file: "relatorio/relcontaspagar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('relatorio/relcontaspagar.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('relatorio/relcontaspagar', [], true)
+ 3 APPPATH\Controllers\Home.php(34): view('relatorio/relcontaspagar')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->relcontaspagar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
