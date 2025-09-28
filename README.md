@@ -6,7 +6,7 @@ O projeto foi desenvolvido como Trabalho de Conclusão de Curso (TCC) em **Anál
 ---
 
 ## 🔗 Postagem no LinkedIn
-Confira a apresentação oficial do CodeMaster no LinkedIn:  
+Confira a apresentação do CodeMaster no LinkedIn:  
 
 👉 [Apresentação do CodeMaster no LinkedIn](https://www.linkedin.com/posts/fabyola-campos_apresento-a-voc%C3%AAs-o-codemaster-activity-7378208783811919872-QmE4?utm_source=share&utm_medium=member_desktop&rcm=ACoAADbMQz8BJ_ZQiCDavMcoNtljC3FwGodhAd0)  
 
