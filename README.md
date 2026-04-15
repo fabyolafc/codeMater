@@ -15,7 +15,7 @@ Confira a apresentação do CodeMaster no LinkedIn:
 ## 📖 Funcionalidades
 
 - Cursos introdutórios de algoritmos  
-- Quizzes interativos  
+- Quiz interativo  
 - Atividades práticas  
 - Compilador integrado em **C++**  
 - Materiais complementares para aprofundamento  
