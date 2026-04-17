@@ -29,4 +29,3 @@ Confira a apresentação do CodeMaster no LinkedIn:
 - **phpMyAdmin**  
 - **Bootstrap**  
 - **HTML, CSS e JavaScript**  
-- **MySQL**
